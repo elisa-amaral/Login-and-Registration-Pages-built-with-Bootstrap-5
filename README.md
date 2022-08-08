@@ -1,6 +1,6 @@
 # Login and Registration Pages with Bootstrap 5
 
-This project is the Front-End of a login page and a registration page template, coded in  HTML, CSS and Bootstrap 5.
+This project is the Front-End of the template for a Login and Registration system. The project was coded in HTML, CSS and Bootstrap 5.
 
 ## Screenshot 1: Login Page
 
