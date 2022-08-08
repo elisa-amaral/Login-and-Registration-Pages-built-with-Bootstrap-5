@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Registration Pages with Bootstrap 5 | Registration</title>
+    <link rel="shortcut icon" href="img/icon.svg" type="image/x-icon">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!--Customized CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <div class="container col-11 col-md-9" id="form-container">
+        <div class="row gx-5">
+            <div class="col-md-6">
+                <h2>Create your account</h2>
+                <form>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" name="name" placeholder="Enter your name">
+                        <label for="name" class="form-label">Enter your first name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" name="lastname" placeholder="Enter your last name">
+                        <label for="lastname" class="form-label">Enter your last name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" name="email" placeholder="Enter your email address">
+                        <label for="email" class="form-label">Enter your email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" name="password" placeholder="Enter your password">
+                        <label for="password" class="form-label">Enter your password</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" name="confirmpassword" placeholder="Confirm your password">
+                        <label for="confirmpassword" class="form-label">Confirm your password</label>
+                    </div>
+                    <div class="mb-3">
+                        <div class="form-check mb-2">
+                            <input type="checkbox" class="form-check-input" id="newsletter" name="agree-form" checked>
+                            <label for="newsletter" class="form-check-label">I want to sign up to the Newsletter</label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input type="checkbox" class="form-check-input" value="" id="agree-form" name="agree-form">
+                            <label for="agree-form" class="form-check-label">I agree with the <a href="#">Terms of Service</a></label>
+                        </div>
+                        <input type="submit" class="btn btn-primary" value="Sign up">
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-6">
+                <div class="row align-items-center">
+                    <div class="col-12">
+                        <img src="img/registration.svg" alt="Registration Page" class="img-fluid">
+                    </div>
+                    <div class="col-12" id="link-container">
+                        <a href="login.html">I already have an account</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
