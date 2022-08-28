@@ -2,6 +2,10 @@
 
 This project is a Front-End template for a Login and Registration system. The project was coded in HTML, CSS and Bootstrap 5.
 
+## Project Link
+
+**https://login-and-registration-with-bootstrap.netlify.app/**
+
 ## Screenshot 1: Login Page
 
 ![Screenshot](Screenshot_1.png)
