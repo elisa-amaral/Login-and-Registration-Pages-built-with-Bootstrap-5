@@ -1,6 +1,6 @@
 # Login and Registration Pages built with Bootstrap 5
 
-This project is a Front-End template for a Login & Registration system.
+This project is a Front-End template for a Login & Registration system. 
 
 ## Project Link
 
