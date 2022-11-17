@@ -2,7 +2,7 @@
 
 This project is a Front-End template for a Login & Registration system. 
 
-## Project Link
+## Project Website
 
 **https://login-and-registration-with-bootstrap.netlify.app/**
 
